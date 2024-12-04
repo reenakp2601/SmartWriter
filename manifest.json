@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "SmartWriter",
+    "version": "1.0",
+    "key": "IB+vr17J09p1HLnZc+x/b6pLDjpi0UollJGtHpdgM3F8wjAOyyPvfDgUD4Nw2kOqa7b5QBzoPOQd+6z3Kp3AjLLQGg9p1MXuVgarLkkKLKzQw0re/iNhsTs0CrXYYsH29TXFMIp2VUyXp9wcapKw6HOEg7fSlUx1JpJKhtMqNdslVyvxDj7ZtozkYEKB2ynQtks9sYUJ+NvtYhepCqrE5f0lRN9x/E7PDvCnM5XoYM1gvAxp3gAnOejH11IML3Yqhz3VkBZd0wGfgNSWvOxcejTX3YJ40ct8WAVkg3918m2VVOG7jHNqVpFNvq0hPnEi0FEMVFjjohPSKwEqzy2E5w==",
+    "permissions": ["contextMenus","scripting", "activeTab", "aiLanguageModelOriginTrial"],
+    "trial_tokens": ["AkXn1FVhw+pddikb3E11uErTjURt/MwYZF2N1fmiDWqGr7CXub/ZSihCllxbuVVGt7WApNxn37vv+kMfnjtEZAQAAAB4eyJvcmlnaW4iOiJjaHJvbWUtZXh0ZW5zaW9uOi8vcG5lamJvYmdsZmZrYWVvb29obGtlbGhobmhsb21wYmoiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElGb3JFeHRlbnNpb24iLCJleHBpcnkiOjE3NjA0ODYzOTl9"], 
+    "background": {
+      "service_worker": "background.js"
+    },
+    "host_permissions": ["<all_urls>"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        
+      }
+    }
+  }
+  
